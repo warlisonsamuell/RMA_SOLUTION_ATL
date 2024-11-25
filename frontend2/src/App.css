@@ -1,0 +1,38 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  width: 50px;
+}
+
+.App-header h1 {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+}
+
+.App-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.App-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.App-nav a:hover {
+  color: #007bff;
+}
